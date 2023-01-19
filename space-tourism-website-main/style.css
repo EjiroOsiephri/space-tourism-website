@@ -1,0 +1,795 @@
+@media screen and (min-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .buttons1{
+        position: absolute;
+        top: 300px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .buttons2{
+        border: 2px solid white;
+        position: absolute;
+        top: 400px;
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .buttons3{
+        border: 2px solid white;
+        background: transparent;
+        position: absolute;
+        top: 500px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        color: white;
+    }
+    .tech-body{
+        position: absolute;
+        left: 250px;
+        top: 300px;
+        
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .img-vehicle{
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        left: 970px;
+        top: 230px;
+        border-radius: 12px;
+    }
+    .tech-body h3{
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .tech-body h2{
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-bottom: 16px;
+    }
+    .tech-body h1{
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: sans-serif;
+        margin-bottom: 12px;
+        color: aliceblue;
+    }
+    
+    body{
+        margin-left: 30px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    
+    
+    #btn5:focus{
+        background: white;
+    }
+    #btn2:focus{
+        background: white;
+    }
+    #btn3:focus{
+        background: white;
+    }
+    #btn4:focus{
+        background: white;
+    }
+    
+    .img-ansari{
+        position: absolute;
+        left: 730px;
+        top: 170px;
+        width: 380px;
+    }
+    .img-ansar{
+        position: absolute;
+        left: 730px;
+        top: 255px;
+        width: 450px;
+    }
+    .img-douglas{
+        position: absolute;
+        left: 730px;
+        top: 290px;
+        width: 450px;
+    }
+    .img-dougla{
+        position: absolute;
+        left: 760px;
+        top: 170px;
+        width: 450px;
+    }
+    .background-home-img{
+        width: 1300px;
+        height: 652px;
+    }
+    .logo{
+        position: absolute;
+        top: -1px;
+        padding: 15px;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    .nav-link{
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 550px;
+        top: 20px;
+    }
+    .moon-text{
+        position: absolute;
+        left: 650px;
+        top: 300px;
+    }
+    .avg-distance{
+        position: absolute;
+        left: 650px;
+        top: 550px;
+        text-transform: uppercase;
+        color: white;
+        font-family: serif;
+        font-weight: 800;
+    }
+    
+    .travel-time{
+        position: absolute;
+        left: 850px;
+        top: 550px;
+        text-transform: uppercase;
+        color: white;
+        font-family: serif;
+        font-weight: 800;
+    }
+    
+    .avg-distance p{
+        font-size: 13px;
+    }
+    
+    .travel-time p{
+        font-size: 13px;
+    }
+    .travel-time h1{
+        font-size: 25px;
+    }
+    
+    
+    .avg-distance h1{
+        font-size: 25px;
+    }
+    
+    .grid button:focus{
+        background-color: antiquewhite;
+        color: black;
+    }
+    .buttons1:focus{
+        color: black;
+        background-color: white;
+    }
+    
+    
+    .moon-text h1{
+        font-size: 70px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 15px;
+    }
+    .moon-text h2{
+        margin-bottom: 20px;
+       font-size: 16px;
+       color: rgb(82, 69, 95);
+       font-weight:bold;
+       font-family: serif;
+       margin-bottom: 20px;
+    }
+    .hr{
+        color: rgb(82, 69, 95);
+    }
+    .img-moon{
+        animation: myFirst 4.5s infinite linear;
+    }
+    
+    @keyframes myFirst{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
+    }
+    
+    
+    .nav-links{
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 650px;
+        top: 200px;
+    }
+    li::after{
+        content: "";
+        width: 0%;
+        background: white;
+        display: block;
+        height: 2px;
+        
+        transition: 1s;
+    }
+    li:hover::after{
+        width: 100%;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        outline: none;
+    }
+    li{
+        padding: 18px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+    }
+    .nav-link li{
+        width: 210px;
+        height: 70px;
+        background: rgba(68, 55, 74, 0.974);
+    }
+    .text{
+        position: absolute;
+        top: 320px;
+        color: white;
+        left: 80px;
+    }
+    .crew-text{
+        position: absolute;
+        top: 350px;
+        left: 60px;
+    }
+    .crew-text h2{
+        text-transform: uppercase;
+        color: rgb(131, 112, 112);
+        font-family: serif;
+        margin-bottom: 15px;
+    }
+    
+    
+    #buttons{
+        position: absolute;
+        left: 60px;
+        top: 560px;
+        
+    }
+    
+    #btn:focus{
+        background: white;
+    }
+    
+    
+    #buttons button{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid white;
+        margin-right: 12px;
+    }
+    
+    .crew-text h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .crew-text h3{
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.662);
+        font-size: 15px;
+    }
+    
+    .text h1{
+        text-transform: uppercase;
+        color: rgb(82, 69, 95);
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    h1 span{
+        color: white;
+        font-size: 85px;
+        margin-top: 16px;
+        letter-spacing: 3px;
+    }
+    .text h3{
+        font-weight: 400;
+        color: rgb(82, 69, 95);
+        font-size: 17px;
+        display: block;
+    }
+    .btn{
+        position: absolute;
+        left: 980px;
+        top: 360px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        color: black;
+        border: none;
+        font-weight: 500;
+    }
+    .btn:hover{
+        width: 250px;
+        transition: 1.5 ease;
+        height: 250px;
+        color: aqua;
+        background: rgb(209, 148, 56);
+    }
+    
+    .img-moon{
+        left: 60px;
+        position: absolute;
+        top: 260px;
+        rotate: 360deg;
+        width: 300px;
+        height: 300px;
+    }
+    .destination h1{
+        text-transform: uppercase;
+        color: white;
+        position: absolute;
+        top:   180px;
+        left: 60px;
+        font-size: 22px;
+    }
+    .destination h1 span{
+        color:  rgb(82, 69, 95);
+        font-size: 22px;
+    }
+    .move{
+        position: absolute;
+        top: 800px;
+    }
+    
+    .europa{
+        position: absolute;
+        top: 950px;
+        background: url("starter-code/assets/destination/background-destination-desktop.jpg");
+    }
+    
+}
+
+
+   
+
+
+
+@media screen and (min-width:300px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .buttons1{
+        position: absolute;
+        top: 300px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .buttons2{
+        border: 2px solid white;
+        position: absolute;
+        top: 400px;
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .buttons3{
+        border: 2px solid white;
+        background: transparent;
+        position: absolute;
+        top: 500px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-family: serif;
+        font-size: 25px;
+        left: 100px;
+        color: white;
+    }
+    .tech-body{
+        position: absolute;
+        left: 250px;
+        top: 300px;
+        
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .img-vehicle{
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        left: 970px;
+        top: 230px;
+        border-radius: 12px;
+    }
+    .tech-body h3{
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .tech-body h2{
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-bottom: 16px;
+    }
+    .tech-body h1{
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: sans-serif;
+        margin-bottom: 12px;
+        color: aliceblue;
+    }
+    
+    body{
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+    
+    
+    #btn5:focus{
+        background: white;
+    }
+    #btn2:focus{
+        background: white;
+    }
+    #btn3:focus{
+        background: white;
+    }
+    #btn4:focus{
+        background: white;
+    }
+    
+    .img-ansari{
+        position: absolute;
+        left: 730px;
+        top: 170px;
+        width: 380px;
+    }
+    .img-ansar{
+        position: absolute;
+        left: 730px;
+        top: 255px;
+        width: 450px;
+    }
+    .img-douglas{
+        position: absolute;
+        left: 730px;
+        top: 290px;
+        width: 450px;
+    }
+    .img-dougla{
+        position: absolute;
+        left: 760px;
+        top: 170px;
+        width: 450px;
+    }
+    .background-home-img{
+        width: 1300px;
+        height: 652px;
+    }
+    .logo{
+        position: absolute;
+        top: -1px;
+        padding: 15px;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    .nav-link{
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 550px;
+        top: 20px;
+    }
+    .moon-text{
+        position: absolute;
+        left: 650px;
+        top: 300px;
+    }
+    .avg-distance{
+        position: absolute;
+        left: 650px;
+        top: 550px;
+        text-transform: uppercase;
+        color: white;
+        font-family: serif;
+        font-weight: 800;
+    }
+    
+    .travel-time{
+        position: absolute;
+        left: 850px;
+        top: 550px;
+        text-transform: uppercase;
+        color: white;
+        font-family: serif;
+        font-weight: 800;
+    }
+    
+    .avg-distance p{
+        font-size: 13px;
+    }
+    
+    .travel-time p{
+        font-size: 13px;
+    }
+    .travel-time h1{
+        font-size: 25px;
+    }
+    
+    
+    .avg-distance h1{
+        font-size: 25px;
+    }
+    
+    .grid button:focus{
+        background-color: antiquewhite;
+        color: black;
+    }
+    .buttons1:focus{
+        color: black;
+        background-color: white;
+    }
+    
+    
+    .moon-text h1{
+        font-size: 70px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 15px;
+    }
+    .moon-text h2{
+        margin-bottom: 20px;
+       font-size: 16px;
+       color: rgb(82, 69, 95);
+       font-weight:bold;
+       font-family: serif;
+       margin-bottom: 20px;
+    }
+    .hr{
+        color: rgb(82, 69, 95);
+    }
+    .img-moon{
+        animation: myFirst 4.5s infinite linear;
+    }
+    
+    @keyframes myFirst{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
+    }
+    
+    
+    .nav-links{
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 650px;
+        top: 200px;
+    }
+    li::after{
+        content: "";
+        width: 0%;
+        background: white;
+        display: block;
+        height: 2px;
+        
+        transition: 1s;
+    }
+    li:hover::after{
+        width: 100%;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        outline: none;
+    }
+    li{
+        padding: 18px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+    }
+    .nav-link li{
+        width: 210px;
+        height: 70px;
+        background: rgba(68, 55, 74, 0.974);
+    }
+    .text{
+        position: absolute;
+        top: 320px;
+        color: white;
+        left: 80px;
+    }
+    .crew-text{
+        position: absolute;
+        top: 350px;
+        left: 60px;
+    }
+    .crew-text h2{
+        text-transform: uppercase;
+        color: rgb(131, 112, 112);
+        font-family: serif;
+        margin-bottom: 15px;
+    }
+    
+    
+    #buttons{
+        position: absolute;
+        left: 60px;
+        top: 560px;
+        
+    }
+    
+    #btn:focus{
+        background: white;
+    }
+    
+    
+    #buttons button{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid white;
+        margin-right: 12px;
+    }
+    
+    .crew-text h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .crew-text h3{
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.662);
+        font-size: 15px;
+    }
+    
+    .text h1{
+        text-transform: uppercase;
+        color: rgb(82, 69, 95);
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    h1 span{
+        color: white;
+        font-size: 85px;
+        margin-top: 16px;
+        letter-spacing: 3px;
+    }
+    .text h3{
+        font-weight: 400;
+        color: rgb(82, 69, 95);
+        font-size: 17px;
+        display: block;
+    }
+    .btn{
+        position: absolute;
+        left: 980px;
+        top: 360px;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        color: black;
+        border: none;
+        font-weight: 500;
+    }
+    .btn:hover{
+        width: 250px;
+        transition: 1.5 ease;
+        height: 250px;
+        color: aqua;
+        background: rgb(209, 148, 56);
+    }
+    
+    .img-moon{
+        left: 60px;
+        position: absolute;
+        top: 260px;
+        rotate: 360deg;
+        width: 300px;
+        height: 300px;
+    }
+    .destination h1{
+        text-transform: uppercase;
+        color: white;
+        position: absolute;
+        top:   180px;
+        left: 60px;
+        font-size: 22px;
+    }
+    .destination h1 span{
+        color:  rgb(82, 69, 95);
+        font-size: 22px;
+    }
+    .move{
+        position: absolute;
+        top: 800px;
+    }
+    
+    .europa{
+        position: absolute;
+        top: 950px;
+        background: url("starter-code/assets/destination/background-destination-desktop.jpg");
+    }
+    
+}
+
