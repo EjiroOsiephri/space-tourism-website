@@ -1,7 +1,5 @@
 # space-tourism-website
-A space website using html css for Desktop view only
-
-#screenshots: https://user-images.githubusercontent.com/107992530/213538068-0b58008a-935a-4ceb-93de-09a4422f6100.png 
+A space website using html css for Desktop view only 
 
 # Frontend Mentor - Space tourism website solution
 
@@ -21,7 +19,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Author](#EJIRO)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -46,7 +44,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [(https://github.com/EjiroOsiephri)]
-- Live Site URL: [[Add live site URL here](https://taupe-gumption-3b64de.netlify.app/)]
+- Live Site URL: [[(https://taupe-gumption-3b64de.netlify.app/)]]
 
 ## My process
 
@@ -55,7 +53,6 @@ Users should be able to:
 -HTML 5
 -CSS
 -Javascript
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
